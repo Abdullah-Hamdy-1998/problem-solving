@@ -11,7 +11,6 @@ public:
   vector<vector<string>> groupAnagrams(vector<string> &strs)
   {
     string str;
-    vector<vector<string>> a;
     unordered_map<string, vector<string>> anagrams;
     vector<vector<string>> anagrams_vector;
 
